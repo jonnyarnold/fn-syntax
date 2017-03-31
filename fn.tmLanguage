@@ -117,7 +117,7 @@
 			<key>comment</key>
 			<string>Function Definition</string>
 			<key>match</key>
-			<string>\(([\w, ]+)\) ?\{</string>
+			<string>fn \(([\w, ]+)\) ?\{</string>
 		</dict>
 	</array>
 	<key>scopeName</key>

@@ -49,7 +49,7 @@ patterns:
  
   # User-defined functions
   - comment: "Function Definition"
-    match: "\\(([\\w, ]+)\\) ?\\{"
+    match: "fn \\(([\\w, ]+)\\) ?\\{"
     captures:
       "1":
         name: "variable.parameter.fn"
