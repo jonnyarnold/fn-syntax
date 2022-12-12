@@ -1,0 +1,24 @@
+{
+	"name": "fn-syntax",
+	"displayName": "Fn Syntax Highlighting",
+	"description": "Fn syntax highlighting VS Code",
+	"version": "0.0.1",
+	"engines": {
+		"vscode": "^1.74.0"
+	},
+	"contributes": {
+    "languages": [
+      {
+        "id": "fn",
+        "extensions": [".fn"]
+      }
+    ],
+    "grammars": [
+      {
+        "language": "fn",
+        "scopeName": "source.fn",
+        "path": "./fn.json"
+      }
+    ]
+  }
+}

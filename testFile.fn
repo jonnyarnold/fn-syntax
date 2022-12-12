@@ -1,0 +1,39 @@
+# Comment
+
+# Numbers
+0
+1
+-1
+1.23
+-1.23
+
+# Strings
+"Hello, world!"
+"Hello, \"you\"."
+
+# Identifiers
+a: 1
+b: 2
+test3: 3
+is_true?: true
+do_something_with_an_effect!: ...
+a + b
+
+# Operators
+1 + 1
+1 - 1
+true & false
+true | false
+
+# Builtins
+builtins: import("builtins")
+import!("builtins")
+
+# Struct literals; dereferencing
+a: { b: { c: 1 } }
+a.b
+a.b.c
+
+# Function literals
+() -> { ... }
+(first, second) -> first + second

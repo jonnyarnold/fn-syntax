@@ -1,0 +1,39 @@
+{
+    "name": "Fn",
+    "scopeName": "source.fn",
+    "fileTypes": [
+        "fn"
+    ],
+    "patterns": [
+        {
+            "name": "comment.line.fn",
+            "match": "#[^\n]*\n"
+        },
+        {
+            "name": "constant.numeric.fn",
+            "match": "-?[0-9]+(\\.[0-9]+)?"
+        },
+        {
+            "name": "string.quoted.double.fn",
+            "match": "\\\".*\\\""
+        },
+        {
+            "comment": "Builtins",
+            "match": "import!?",
+            "name": "keyword.other.fn"
+        },
+        {
+            "name": "entity.name.fn",
+            "match": "(.+):"
+        },
+        {
+            "name": "keyword.operator.fn",
+            "match": "\\p{Punct}+"
+        },
+        {
+            "comment": "Identifiers",
+            "match": "\\p{Alpha}\\p{Alnum}*",
+            "name": "variable.fn"
+        }
+    ]
+}
