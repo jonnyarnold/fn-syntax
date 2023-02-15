@@ -10,6 +10,10 @@
 # Strings
 "Hello, world!"
 "Hello, \"you\"."
+"Hello, " + "world!"
+
+" This is a multiline
+" string. Oh yeahhh.
 
 # Identifiers
 a: 1

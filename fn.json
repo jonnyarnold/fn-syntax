@@ -7,7 +7,7 @@
     "patterns": [
         {
             "name": "comment.line.fn",
-            "match": "#[^\n]*\n"
+            "match": "#.*"
         },
         {
             "name": "constant.numeric.fn",
@@ -15,7 +15,7 @@
         },
         {
             "name": "string.quoted.double.fn",
-            "match": "\\\".*\\\""
+            "match": "\"[\\\"|^\"]*\"?"
         },
         {
             "comment": "Builtins",
@@ -24,15 +24,15 @@
         },
         {
             "name": "entity.name.fn",
-            "match": "(.+):"
+            "match": "[A-Za-z0-9_]+[?!]*:"
         },
         {
             "name": "keyword.operator.fn",
-            "match": "\\p{Punct}+"
+            "match": "[@%^&*\\-+=|\\\\<>]{1,2}"
         },
         {
             "comment": "Identifiers",
-            "match": "\\p{Alpha}\\p{Alnum}*",
+            "match": "[A-Za-z0-9_]+[?!]*",
             "name": "variable.fn"
         }
     ]
